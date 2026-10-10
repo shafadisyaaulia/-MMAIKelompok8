@@ -1162,7 +1162,7 @@ class ShortestPathGUI:
         # Dialog Window
         dlg = tk.Toplevel(self.root)
         dlg.title("Komparasi Hasil Algoritma Shortest Path")
-        dlg.geometry("740, 520")
+        dlg.geometry("740x520")
         dlg.minsize(680, 460)
         dlg.configure(bg=self.colors["panel_bg"])
 
